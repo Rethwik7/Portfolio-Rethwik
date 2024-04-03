@@ -1,0 +1,110 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(9, 9, 43);
+    color: white;
+     overflow-x: auto;
+    -webkit-scrollbardisplay: none;  
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(12, 12, 62);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+main {
+    padding-top: 80px; 
+}
+.left{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.left:hover{
+    color:antiquewhite ;
+    
+}
+nav,ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav,ul,li{
+    list-style: none;
+    margin: 0 24px;
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+}
+.left-section{
+    font-size: 2.5rem;
+    margin: 80px;
+}
+.name{
+    color:rgb(88 88 173) ;
+}
+.right-section{
+    font-size: 1.5rem;   
+}
+.first-section div{
+    width: 68%;
+}
+.right-section img{
+    width: 70%;
+    margin: -60px 0px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+    color: rgb(94, 94, 226);
+    font-size: 1.1rem;
+ }
+#role{
+    color: antiquewhite ;
+}
+.btn{
+    width: 128px;
+    margin: 20px 10px 0px 0px;
+    padding: 6px 30px 6px 30px;
+    border-radius: 8px;
+    color: rgb(235, 232, 232);
+    background-color: rgb(94, 94, 226);
+    font-size: 13px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.linkedin{
+    width: 30px;
+    height: 30px;
+}
+footer {
+    background-color: rgb(9, 9, 43);
+    padding: 20px; 
+    text-align: center;
+}
+.footer {
+    margin-bottom: 20px; 
+}
+
+.linkedin {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+}
+.footer-end {
+    font-size: 14px;
+    color: #666;
+}
